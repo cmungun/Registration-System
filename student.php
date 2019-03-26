@@ -45,7 +45,7 @@ function getregistered($Name,$eventname){
 		if($value1==1){
 
 		echo "<h3>You are already registered</h1>";
-		header('Refresh: 2; URL = ECA.html');
+		header('Refresh: 2; URL = index.html');
 
 	}
 	else{
@@ -59,7 +59,7 @@ function getregistered($Name,$eventname){
 		$result1 = mysqli_query($conn, $query1);
 
 		echo "<h3>$Name you are now registred into ". $eventname."</h3>";
-		header('Refresh: 2; URL = ECA.html');
+		header('Refresh: 2; URL = index.html');
 
 
 	}

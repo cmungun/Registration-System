@@ -33,7 +33,7 @@ if($username=='root' && $password=='root'){
 else
 {
 	echo "<h3>Wrong Password Or Username</h3>";
-	header('Refresh: 2; URL = ECA.html');
+	header('Refresh: 2; URL = index.html');
 
 
 }
