@@ -1,0 +1,38 @@
+  <head>
+    <meta charset="utf-8">
+    
+    <title>ECA Event Registration</title>
+  </head>
+  <body>
+    <h1>Welcome to ECA Registration System</h1>
+
+    <form action= "student.php" method="post">
+      <fieldset>
+        <legend>Event Registration</legend>
+        Event:<br>
+        <select name="option">
+          <option value ="Programming Challenge">Programming Challenge</option>
+          <option value = "CockTail">CockTail</option>
+          <option value = "Career fair">Career fair</option>
+          <option value = "Info session">Info session</option>
+        </select><br>
+        <label>Name:<br>
+          <input type="text" 
+          name="name">
+        </label><br>
+        <label>Student ID:<br>
+          <input type="text" 
+          name="studentID">
+        </label><br>
+        <label>Phone Number:<br>
+          <input type="text" 
+          name="phoneNumber">
+        </label><br>
+        <label>Email:<br>
+          <input type="text" 
+          name="email">
+        <input type="submit" name="submit"/>
+      </fieldset>
+    </form>
+  </body>
+

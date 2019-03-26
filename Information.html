@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title> Question 4 </title>
+            <meta charset="UTF-8">
+            <style>
+                body{background-color:#ffffb3}
+                fieldset.F1 {background-color:#ffb3ff;
+                             border-color:#0059b3}
+                        .F1L  {color:#0059b3}
+                        .F1T {color: #1a8cff;
+                               font-weight:bold}
+                fieldset.F2 {background-color:#fff3e6;
+                             border-color:#2eb82e}
+                        .F2L  {color:#2eb82e}
+                        .F2T  {color:#70db70;
+                               font-weight:bold}
+                        .black{color: black;
+                               font-weight:normal}
+                        img {float:left}
+            </style>
+		</head>
+		<body>
+            <div > 
+                <a href="http://www.kstourandtravels.com/wp-content/uploads/2017/05/Hotel-Reservation.jpg">
+                <img alt="image of reservation" 
+                     src="http://www.kstourandtravels.com/wp-content/uploads/2017/05/Hotel-Reservation.jpg"  style="width:200px;height:100px" >
+                </a><br><br>
+            </div>
+			<h1>
+			Hotel Reservation Form	
+			</h1>
+				<form>
+					<fieldset class="F1">
+						<legend class="F1L">Rservation Information</legend>
+							<label class="F1T">Number of Rooms(max 5 people per room)
+								<input type="text" 
+									   name="nbOfRoom">
+							</label><br><br>
+							<label class="F1T">Smoker?</label>
+            					<label>
+            						<input type="radio" 
+            						       name="Smoker" 
+            						       value="yes">Yes
+            					</label>
+            					<label>
+            						<input type="radio" 
+            						       name="Smoker" 
+            						       value="no">No
+            					</label><br><br>
+            				<label class="F1T">Check-in:  
+            					<input type="date" 
+            					       name="checkIn">
+            				</label><br><br>
+            				<label class="F1T">Check-out:
+            					<input type="date" 
+            					       name="checkOut">
+            				</label><br><br>
+					</fieldset>
+					<fieldset class="F2">
+						<legend class="F2L">Room Specifications</legend>
+						<ul>
+							<li class="F2T">
+								Number of single/double beds:
+								<br>
+								<label class="black">
+									<input type="checkbox" 
+										   name="typeOfBeds" 
+										   value="0/2">0/2
+								</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="typeOfBeds"
+                						   value="2/0">2/0
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="typeOfBeds"
+                						   value="1/1">1/1
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="typeOfBeds" 
+                						   value="0/2">0/2</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="typeOfBeds"
+                                           value="1/2">1/2
+                                </label><br><br>
+							</li>
+							<li class="F2T">
+								Do you have preferred locations for the hotel?<br>
+								<label class="black">
+									<input type="checkbox" 
+										   name="locations"  value="dt">Downtown
+								</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="locations"  value="montrealE">Montreal East
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="locations"  value="montrealW">Montreal West
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="locations"  value="airport">Near to airport
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="locations"  value="oldport">Oldport
+                				</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="locations"  value="notCare">Don't care
+                				</label><br><br>
+							</li>
+							<li class="F2T">
+								Price Range/per night:<br>
+								<select>
+                				<option>&lt;$50</option>
+                				<option>$50-$250</option>
+                				<option>$250-$500</option>
+                				<option>&gt;$500</option>
+                				</select><br><br>
+							</li>
+							<li class="F2T">
+								Number of Private Parkings<br>
+								<label class="black">
+									<input type ="radio" 
+										   name="nbOfParking" value = "0"/>0
+								</label><br>
+                    			<label class="black">
+                    				<input type ="radio" 
+                    					   name="nbOfParking" value = "1"/>1
+                    			</label><br>
+                    			<label class="black">
+                    				<input type ="radio" 
+                    					   name="nbOfParking" value = "2"/>2
+                    			</label><br>
+                    			<label class="black">
+                    				<input type ="radio" 
+                    					   name="nbOfParking" value = "3"/>3
+                    			</label><br>
+                    			<label class="black">
+                    				<input type ="radio" 
+                    					   name="nbOfParking" value = "4"/>4
+                    			</label><br><br>
+							</li>
+							<li class="F2T">
+								Special Facilities<br>
+								<label class="black">
+									<input type="checkbox" 
+										   name="Facilities"  value="minibar">Minibar
+								</label>
+               					<label class="black">
+               						<input type="checkbox" 
+               							   name="Facilities"  value="balcony">Balcony
+               					</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                					       name="Facilities"  value="pool">Pool
+                			 	</label>
+                				<label class="black">
+                					<input type="checkbox" 
+                						   name="Facilities"  value="waterFront">Water Front
+                				</label>
+                				<label class="black">
+                					<input type="checkbox"  
+                						   name="Facilities"  value="gardenFront">Garden Front
+                				</label>
+							</li>
+						</ul>
+					</fieldset><br>
+    				<label>Let's see what we can find...</label><br><br>
+    				<input type="submit" value="Search">
+    				<input type="reset" value="Start over">
+				</form>
+		</body>
+	</html>
