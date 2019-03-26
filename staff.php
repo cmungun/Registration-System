@@ -18,9 +18,9 @@ if($username=='root' && $password=='root'){
 	//echo '<pre>' . var_export($posts1, true) . '</pre>';
 	foreach ($posts1 as $key => $value) {
 
-		echo $value['Name'] . "\t".;
-		echo $value['Email']. "\t";
-		echo $value['Phone']. "\t";
+		echo $value['Name'] ."\t";
+		echo $value['Email']."\t";
+		echo $value['Phone']."\t";
 		echo $value['Student_id']."\t";
 		echo $value['Program']."\t";
 		echo $value['eventname']."\t";
