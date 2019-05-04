@@ -1,6 +1,7 @@
 Team Memebers
 -Mohamed Hefny  40033382
--
+-Jinfeng Hu     40044170
+-Chavind Mungun
 # Registration-System
 System for Students to attend free event organised by the Engineering &amp; computer Science Association
 
